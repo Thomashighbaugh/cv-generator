@@ -70,3 +70,14 @@ return ftext;
 Changing the text, you may want to move around the variables populated by your responses, which means moving the corresponding addition marks which are lumping the text together with the strings you respond to the prompts with. **Be sure to add spaces to before and after the quotation marks or you will have a funky looking coverletter**. 
 
 It is also worth noting that the inclusion of the `<br />` tags within the JS file are rendered at the time of display in HTML and are not going to be in the text you copy. You can change these if you like, I have found two is necessary to produce an actual space between the text, hence my inclusion of that many, but you may prefer 3 or 1, its up to you. 
+
+## Artwork
+
+Yes the artwork used in this site, like many of my other sites, is that of my own creation. It serves as the background here to prevent the site from having too plain of an appearance. Which is something I do actually care about, hence my customizing my Linux window manager to such a degree as I do. 
+
+Feel free to use the artwork elsewhere if you so choose to, just make sure you attribute it to me please. 
+
+### Its Content
+This picture is of some high rises in beautiful San Francisco that happened to take well to my super secret Machine Learning enabled art process. As a whole image, it kinda sucks but the zoom that the website does by default looks awesome and balances thw colors really well. As Bob Ross would say its,
+
+> A Happy Accident.
