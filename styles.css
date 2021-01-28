@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	color: #f4f4f7;
+	background: #16171daa;
+	font-family: "Kanit", sans-serif;
+	width: 100% !important;
+	margin: 0;
+	padding: 0;
+	background: url('bg.png');
+	background-size: 250%;
+}
+
+section {
+	align-content: center;
+	justify-content: center;
+	padding-top: 2rem;
+	margin-left: 5rem;
+	margin-right: 5rem !important;
+	padding-bottom: 2rem;
+	padding: 2rem;
+	align-self: center;
+	justify-self: center;
+	background-color: #16171daa;
+	color: #f4f4f7;
+}
+
+#info input {
+	width: 75%;
+	margin-right: 12%;
+	margin-left: 12%;
+}
+
+h1 {
+	font-family: "Days One", sans-serif;
+	color: #f4f4f7;
+	padding: 1rem;
+	margin-bottom: 0;
+	font-size: 2.5rem;
+	background-color: #16171d;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	text-align: cetner;
+	text-shadow: 0.25rem 0.25rem #8265ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Days One", sans-serif;
+	text-shadow: 0.25rem 0.25rem #8265ff;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	color: #f4f4f7;
+	margin-top: 0.25rem;
+	font-size: 1.5rem;
+	padding-top: 0;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding: 2rem;
+	background-color: #16171daa;
+}
+
+button {
+	width: 15rem;
+	background-color: #8265ff;
+	border: 0.25rem solid #16171d;
+	font-weight: 900;
+	font-family: "Days One", sans-serif;
+	color: #f4f4f7;
+	font-size: 1.5rem;
+	text-shadow: 0.25rem 0.25rem #16171d;
+	padding: 1rem;
+	border-radius: 18px;
+	margin-left: 5rem;
+}
+
+button:hover {
+	text-shadow: 0.2rem 0.2rem #8265ff;
+	background-color: #16171d;
+	border-color: #8265ff;
+}
+
+#gen {
+	margin-left: 30%;
+}
+
+#clear {
+	width: 25% !important;
+	margin-right: 0 !important;
+	margin-left: 6% !important;
+	background-color: #8265ff;
+	border: 0.25rem solid #16171d;
+	font-size: 1.5rem;
+	color: #f4f4f7;
+	text-shadow: 0.25rem 0.25rem #16171d;
+	font-weight: 900;
+	font-family: "Days One", sans-serif;
+}
+
+#result {
+	border-radius: 18px;
+	font-size: 1rem;
+}
