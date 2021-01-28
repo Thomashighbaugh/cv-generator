@@ -1,6 +1,4 @@
 function generateCL() {
-
-
   function coverLetter(
     yourname,
     address1,
@@ -41,8 +39,11 @@ function generateCL() {
       position +
       " at " +
       companyName +
-      ". If that is indeed the case, feel free to email me at "+ email +"or call me at "+ phone
-      +" and I will be more than happy to accomodate your schedule in regards to scheduling of an interview in whatever format works best for you. If instead you do not think I am a good fit for this, please feel free to email me regarding any other roles you think I be better fit for within your organization and feel free to advance my resume towards such ends. " +
+      ". If that is indeed the case, feel free to email me at " +
+      email +
+      "or call me at " +
+      phone +
+      " and I will be more than happy to accomodate your schedule in regards to scheduling of an interview in whatever format works best for you. If instead you do not think I am a good fit for this, please feel free to email me regarding any other roles you think I be better fit for within your organization and feel free to advance my resume towards such ends. " +
       "<br />" +
       "<br />" +
       "Thank you for your time and consideration and I look forward to hearing from you soon," +
@@ -57,17 +58,29 @@ function generateCL() {
   // var jname = document.getElementById("jname").value;
   // var pname = document.getElementById("pname").valie;
   // var skills = document.getElementById("skills").value;
-  var yname = window.prompt("What's Your Name?")
+  var yname = window.prompt("What's Your Name?");
 
-var add1 = window.prompt("What's Your Street Address?")
-var add2 = window.prompt("What's Your City, State and Zip Code?")
-var cname= window.prompt("What Company Are You Applying At?")
-var jname = window.prompt("Position you are applying for?")
-var pname = window.prompt("Platform you are applying on?")
-var skills = window.prompt("Skills you possess that are being asked for in the advertisement")
-var email = window.prompt("What is your email?")
-var phone = window.prompt("What is your phone number?")  
-var text = coverLetter(yname, add1, add2, cname, jname, pname, skills, email, phone);
+  var add1 = window.prompt("What's Your Street Address?");
+  var add2 = window.prompt("What's Your City, State and Zip Code?");
+  var cname = window.prompt("What Company Are You Applying At?");
+  var jname = window.prompt("Position you are applying for?");
+  var pname = window.prompt("Platform you are applying on?");
+  var skills = window.prompt(
+    "Skills you possess that are being asked for in the advertisement"
+  );
+  var email = window.prompt("What is your email?");
+  var phone = window.prompt("What is your phone number?");
+  var text = coverLetter(
+    yname,
+    add1,
+    add2,
+    cname,
+    jname,
+    pname,
+    skills,
+    email,
+    phone
+  );
   document.getElementById("result").innerHTML = text;
 }
 var copy = document.getElementById("copybtn");
