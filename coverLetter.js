@@ -31,7 +31,7 @@ function generateCL() {
       ". Given this stipulation, I think you will find me a fetching candidate for the position, which I think you will agree upon reviewing the information submitted with this application." +
       "<br />" +
       "<br />" +
-      " Believing that showing one's proficiency is a better method than telling others about it, I would prefer to demonstrate this capacity to you rather than wax poetically about my talents, for which purpose I ask that you examine my portfolio website at https://thomasleonhighbaugh.me. Additionally, I would like to take the time to point out that the resume I have submitted is the print version of my HTML resume which can be viewed live at https://thomashighbaugh.github.io/resume/ in its fullest form. It was written leeveraging TailwindCSS and HTML such that I could more accurately control the use of whitespace on the page and insure that the styling of it met the muster of respect with which is only appropiate when advancing an application with " +
+      " Believing that showing one's proficiency is a better method than telling others about it, I would prefer to demonstrate this capacity to you rather than wax poetically about my talents, for which purpose I ask that you examine my portfolio website at https://thomasleonhighbaugh.me. While there, you will see a navigation link for 'Projects' that will take you to another site that demonstrates a set of my personal projects that are displayed within iframes. I think in aggregate these projects should give you a pretty good sense of my overall abilities.<br> <br> Additionally, I would like to take the time to point out that the resume I have submitted is the print version of my HTML resume which can be viewed live at https://thomashighbaugh.github.io/resume/ in its fullest form. It was written leveraging TailwindCSS and HTML such that I could more accurately control the use of whitespace on the page and insure that the styling of it met the muster of respect with which is only appropriate when advancing an application with " +
       companyName +
       ". <br/>" +
       "<br />" +
@@ -41,9 +41,9 @@ function generateCL() {
       companyName +
       ". If that is indeed the case, feel free to email me at " +
       email +
-      "or call me at " +
+      " or call me at " +
       phone +
-      " and I will be more than happy to accomodate your schedule in regards to scheduling of an interview in whatever format works best for you. If instead you do not think I am a good fit for this, please feel free to email me regarding any other roles you think I be better fit for within your organization and feel free to advance my resume towards such ends. " +
+      " and I will be more than happy to accommodate your schedule in regards to scheduling of an interview in whatever format works best for you. If instead you do not think I am a good fit for this, please feel free to email me regarding any other roles you think I be better fit for within your organization and feel free to advance my resume towards such ends. " +
       "<br />" +
       "<br />" +
       "Thank you for your time and consideration and I look forward to hearing from you soon," +
@@ -56,7 +56,7 @@ function generateCL() {
   // var add2 = document.getElementById("add2").value;
   // var cname = document.getElementById("cname").value;
   // var jname = document.getElementById("jname").value;
-  // var pname = document.getElementById("pname").valie;
+  // var pname = document.getElementById("pname").value;
   // var skills = document.getElementById("skills").value;
   var yname = window.prompt("What's Your Name?");
 
