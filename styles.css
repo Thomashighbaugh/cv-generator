@@ -70,7 +70,7 @@ p {
 }
 
 button {
-  width: 15rem;
+  width: 60%;
   background-color: #8265ff;
   border: 0.25rem solid #16171d;
   font-weight: 900;
@@ -80,17 +80,13 @@ button {
   text-shadow: 0.25rem 0.25rem #16171d;
   padding: 1rem;
   border-radius: 18px;
-  margin-left: 5rem;
+  margin-left: 20%;;
 }
 
 button:hover {
   text-shadow: 0.2rem 0.2rem #8265ff;
   background-color: #16171d;
   border-color: #8265ff;
-}
-
-#gen {
-  margin-left: 30%;
 }
 
 #clear {
